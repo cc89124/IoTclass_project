@@ -117,3 +117,98 @@
 
 ### Example 2-16: Closure scope debugging with `debugger` keyword
 - `debugger` 키워드를 이용한 클로저 스코프 디버깅 예제
+
+## Chapter 3 Examples
+
+### Example 3-1: `this` and `window` in the browser environment
+- `this`와 `window`의 브라우저 환경에서의 동작
+
+### Example 3-2: `this` and `global` in the Node.js environment
+- `this`와 `global`의 Node.js 환경에서의 동작
+
+### Example 3-3: Global variables and the `this` keyword
+- 전역 변수와 `this` 키워드의 관계
+
+### Example 3-4: Assigning properties to `window` and `this`
+- `window`와 `this`에 속성 할당
+
+### Example 3-5: Deleting global variables and the `this` keyword
+- 전역 변수 삭제와 `this` 키워드
+
+### Example 3-6: `this` inside a regular function and an object method
+- 일반 함수와 객체 메서드에서의 `this` 동작
+
+### Example 3-7: `this` inside an object method and using bracket notation
+- 객체 메서드에서의 `this`와 대괄호 표기법 사용
+
+### Example 3-8: `this` in nested methods inside an object
+- 객체 내 중첩된 메서드에서의 `this`
+
+### Example 3-9: `this` and the inner function inside an object method
+- 객체 메서드 내의 내부 함수에서의 `this`
+
+### Example 3-10: Using `this` in a method and in a nested function with a saved reference
+- 메서드와 중첩 함수에서의 `this` 사용과 참조 저장
+
+### Example 3-11: Arrow function and lexical `this` binding
+- 화살표 함수와 렉시컬 `this` 바인딩
+
+### Example 3-12: Using `this` with `setTimeout` and `forEach`
+- `setTimeout`과 `forEach`에서의 `this`
+
+### Example 3-13: Constructor function usage with `this`
+- 생성자 함수에서의 `this` 사용
+
+### Example 3-14: Using `call` to set `this` context
+- `call`을 사용하여 `this` 컨텍스트 설정
+
+### Example 3-15: Using `call` with method invocation
+- 메서드 호출과 함께 `call` 사용
+
+### Example 3-16: Using `apply` to set `this` context with arguments
+- `apply`를 사용하여 `this` 컨텍스트와 인자 설정
+
+### Example 3-17: Using `call` and `slice` on array-like objects
+- 배열 비슷한 객체에서 `call`과 `slice` 사용
+
+### Example 3-18: Using `arguments` with `slice` for an array-like object
+- `arguments`와 `slice`를 사용하여 배열 비슷한 객체 처리
+
+### Example 3-19: Array prototype methods on a string
+- 문자열에서 배열 프로토타입 메서드 사용
+
+### Example 3-20: Using `Array.from` to convert an array-like object to an array
+- 배열 비슷한 객체를 배열로 변환하는 `Array.from` 사용
+
+### Example 3-21: Using `call` and `apply` in inheritance
+- 상속에서 `call`과 `apply` 사용
+
+### Example 3-22: Finding the maximum and minimum values in an array
+- 배열에서 최대값과 최소값 찾기
+
+### Example 3-23: Using `Math.max` and `Math.min` with `apply`
+- `apply`와 함께 `Math.max`와 `Math.min` 사용
+
+### Example 3-24: Using spread syntax for finding max and min
+- 최대값과 최소값을 찾기 위한 스프레드 문법 사용
+
+### Example 3-25: Using `bind` to set `this` context with partial arguments
+- `bind`로 `this` 컨텍스트 설정과 부분 인자 사용
+
+### Example 3-26: Checking the name property of a function and a bound function
+- 함수와 바인딩된 함수의 이름 속성 확인
+
+### Example 3-27: Binding `this` in an inner function using `call` and `bind`
+- `call`과 `bind`를 사용하여 내부 함수에서 `this` 바인딩
+
+### Example 3-28: Using `setTimeout` with and without `bind` for `this`
+- `setTimeout`에서 `this`를 `bind`와 함께 또는 없이 사용
+
+### Example 3-29: Arrow function usage with `this` binding
+- `this` 바인딩을 위한 화살표 함수 사용
+
+### Example 3-30: Using `this` with `forEach` in an object method
+- 객체 메서드에서 `forEach`와 함께 `this` 사용
+
+### Example 3-31: Array prototype methods and their behavior
+- 배열 프로토타입 메서드 및 동작
