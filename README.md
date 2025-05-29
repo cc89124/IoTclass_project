@@ -265,3 +265,60 @@ Generator 함수와 yield를 통한 비동기 흐름 제어
 
 ### Example 4-17: Async/await syntax for sequential async calls  
 Async/await 문법을 통한 명료한 순차적 비동기 처리
+
+## Chapter 5 Examples
+
+### Example 5-1: Immediate invocation of inner function  
+내부 함수가 즉시 실행되면서 외부 변수 값을 캡처하여 사용함을 보여주는 예제
+
+### Example 5-2: Returning result from inner function invocation  
+내부 함수 실행 결과를 외부로 반환하고, 변수 캡처를 통해 값을 전달하는 동작 설명
+
+### Example 5-3: Returning inner function to enable closure  
+내부 함수를 반환하여 클로저(closure)를 생성하고, 이후에도 외부 변수에 접근 가능한 구조 구현
+
+### Example 5-4: Closures in asynchronous functions and event listeners  
+비동기 함수와 이벤트 리스너 내에서 클로저가 어떻게 동작하는지와 변수 캡처 방식을 보여줌
+
+### Example 5-5: Memory release in closures with return, setInterval, and eventListener  
+클로저가 참조하는 메모리 해제 방법을 반환값, setInterval, 이벤트 리스너별로 비교 분석
+
+### Example 5-6: Closure capturing loop variable in event listeners  
+반복문 내 이벤트 리스너가 클로저로 인해 동일한 변수 참조 문제를 일으키는 현상과 원인 설명
+
+### Example 5-7: Event listener using shared callback function without closure  
+클로저를 사용하지 않고 공통 콜백 함수를 이벤트 리스너에 등록하여 발생하는 한계와 특성
+
+### Example 5-8: Event listener with bound function to fix closure issue  
+bind 메서드를 활용해 클로저 문제를 해결하고, 각 이벤트 리스너가 독립적인 변수를 가지도록 구현
+
+### Example 5-9: Factory function returning closure for event listener callbacks  
+팩토리 함수가 클로저를 반환하여 이벤트 리스너마다 개별 상태를 유지하도록 하는 패턴 소개
+
+### Example 5-10: Object literal with methods manipulating internal state  
+객체 리터럴 내 메서드를 통해 내부 상태를 변경하고 접근하는 기본적인 객체지향 프로그래밍 구현
+
+### Example 5-11: Factory function returning object with private state and getters  
+프라이빗 변수와 getter를 포함한 객체를 팩토리 함수로 생성하여 캡슐화와 정보 은닉을 구현
+
+### Example 5-12: Object.freeze를 통한 불변 객체 반환  
+Object.freeze 메서드를 이용해 객체를 불변으로 만들어 상태 변경을 방지하는 기법 설명
+
+### Example 5-13: Function binding with preset arguments using bind  
+bind 함수를 사용하여 일부 인자를 고정한 새로운 함수 생성 방법과 활용 예시
+
+### Example 5-14: Custom partial function implementation  
+부분 적용(partial application)을 지원하는 커스텀 함수 구현으로, 인자 일부 고정과 재사용성 향상
+
+### Example 5-15: Advanced partial function with placeholder support  
+플레이스홀더(_)를 사용하여 인자 위치를 유동적으로 지정할 수 있는 고급 partial 함수 구현
+
+### Example 5-16: Debounce function for event handling  
+사용자 이벤트의 과도한 호출을 방지하는 디바운스 함수 구현과 실무 적용법 설명
+
+### Example 5-17: Simple curry function for two-argument functions  
+두 개 인자를 갖는 함수를 위한 단순 커리 함수 구현 및 부분 적용 활용 예제
+
+### Example 5-18: Nested curry function for five-argument functions  
+5단계 중첩 커리 함수 구현으로 다중 인자 함수에 대해 단계별 부분 적용 가능하도록 설계  
+
