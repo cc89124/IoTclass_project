@@ -212,3 +212,56 @@
 
 ### Example 3-31: Array prototype methods and their behavior
 - 배열 프로토타입 메서드 및 동작
+
+## Chapter 4 Examples
+
+### Example 4-1: Using setInterval with inline callback  
+익명 함수 기반 setInterval 사용을 통한 300ms 간격 카운터 출력 및 5회 후 정지
+
+### Example 4-2: Using setInterval with named callback function  
+이름 있는 함수 콜백을 통한 setInterval 사용과 가독성 향상
+
+### Example 4-3: Array.map with correct parameter order  
+올바른 콜백 매개변수 순서(현재값, 인덱스)를 이용한 Array.map 사용법
+
+### Example 4-4: Array.map with incorrect parameter order  
+잘못된 콜백 매개변수 순서로 인한 예기치 않은 결과 발생 사례
+
+### Example 4-5: Custom implementation of Array.prototype.map  
+for문과 콜백 호출을 활용한 Array.map 수동 구현 및 내부 동작 이해
+
+### Example 4-6: this context in callbacks and event handlers  
+콜백 함수 및 이벤트 핸들러 내 this 컨텍스트 변화 사례
+
+### Example 4-7: this binding issues in callback functions  
+객체 메서드 콜백 전달 시 this 바인딩 문제 발생 원인 분석
+
+### Example 4-8: Preserving this with closure variable  
+클로저 변수 활용을 통한 this 컨텍스트 유지 방법
+
+### Example 4-9: Direct object method reference losing context  
+직접 객체 메서드 참조 시 this 컨텍스트 손실 문제
+
+### Example 4-10: Calling object method with different context and call usage  
+메서드 다른 객체 할당 및 call 메서드 활용한 this 명시적 지정
+
+### Example 4-11: Using bind to fix this context in callbacks  
+bind 메서드를 이용한 this 컨텍스트 고정과 콜백 문제 해결
+
+### Example 4-12: Nested callbacks with setTimeout for sequential async calls  
+중첩 setTimeout을 이용한 순차적 비동기 호출 및 콜백 헬 사례
+
+### Example 4-13: Named callback functions to avoid callback hell  
+이름 있는 함수 분리로 콜백 헬 회피 및 가독성 향상
+
+### Example 4-14: Using Promises to chain async operations  
+Promise 체이닝을 이용한 비동기 작업 순차 처리
+
+### Example 4-15: Higher-order function returning Promise functions for chaining  
+고차 함수 작성 및 Promise 반환 함수 활용 체이닝 간소화
+
+### Example 4-16: Generator function for async flow control  
+Generator 함수와 yield를 통한 비동기 흐름 제어
+
+### Example 4-17: Async/await syntax for sequential async calls  
+Async/await 문법을 통한 명료한 순차적 비동기 처리
