@@ -216,109 +216,190 @@
 ## Chapter 4 Examples
 
 ### Example 4-1: Using setInterval with inline callback  
-익명 함수 기반 setInterval 사용을 통한 300ms 간격 카운터 출력 및 5회 후 정지
+- 익명 함수 기반 setInterval 사용을 통한 300ms 간격 카운터 출력 및 5회 후 정지
 
 ### Example 4-2: Using setInterval with named callback function  
-이름 있는 함수 콜백을 통한 setInterval 사용과 가독성 향상
+- 이름 있는 함수 콜백을 통한 setInterval 사용과 가독성 향상
 
 ### Example 4-3: Array.map with correct parameter order  
-올바른 콜백 매개변수 순서(현재값, 인덱스)를 이용한 Array.map 사용법
+- 올바른 콜백 매개변수 순서(현재값, 인덱스)를 이용한 Array.map 사용법
 
 ### Example 4-4: Array.map with incorrect parameter order  
-잘못된 콜백 매개변수 순서로 인한 예기치 않은 결과 발생 사례
+- 잘못된 콜백 매개변수 순서로 인한 예기치 않은 결과 발생 사례
 
 ### Example 4-5: Custom implementation of Array.prototype.map  
-for문과 콜백 호출을 활용한 Array.map 수동 구현 및 내부 동작 이해
+- for문과 콜백 호출을 활용한 Array.map 수동 구현 및 내부 동작 이해
 
 ### Example 4-6: this context in callbacks and event handlers  
-콜백 함수 및 이벤트 핸들러 내 this 컨텍스트 변화 사례
+- 콜백 함수 및 이벤트 핸들러 내 this 컨텍스트 변화 사례
 
 ### Example 4-7: this binding issues in callback functions  
-객체 메서드 콜백 전달 시 this 바인딩 문제 발생 원인 분석
+- 객체 메서드 콜백 전달 시 this 바인딩 문제 발생 원인 분석
 
 ### Example 4-8: Preserving this with closure variable  
-클로저 변수 활용을 통한 this 컨텍스트 유지 방법
+- 클로저 변수 활용을 통한 this 컨텍스트 유지 방법
 
 ### Example 4-9: Direct object method reference losing context  
-직접 객체 메서드 참조 시 this 컨텍스트 손실 문제
+- 직접 객체 메서드 참조 시 this 컨텍스트 손실 문제
 
 ### Example 4-10: Calling object method with different context and call usage  
-메서드 다른 객체 할당 및 call 메서드 활용한 this 명시적 지정
+- 메서드 다른 객체 할당 및 call 메서드 활용한 this 명시적 지정
 
 ### Example 4-11: Using bind to fix this context in callbacks  
-bind 메서드를 이용한 this 컨텍스트 고정과 콜백 문제 해결
+- bind 메서드를 이용한 this 컨텍스트 고정과 콜백 문제 해결
 
 ### Example 4-12: Nested callbacks with setTimeout for sequential async calls  
-중첩 setTimeout을 이용한 순차적 비동기 호출 및 콜백 헬 사례
+- 중첩 setTimeout을 이용한 순차적 비동기 호출 및 콜백 헬 사례
 
 ### Example 4-13: Named callback functions to avoid callback hell  
-이름 있는 함수 분리로 콜백 헬 회피 및 가독성 향상
+- 이름 있는 함수 분리로 콜백 헬 회피 및 가독성 향상
 
 ### Example 4-14: Using Promises to chain async operations  
-Promise 체이닝을 이용한 비동기 작업 순차 처리
+- Promise 체이닝을 이용한 비동기 작업 순차 처리
 
 ### Example 4-15: Higher-order function returning Promise functions for chaining  
-고차 함수 작성 및 Promise 반환 함수 활용 체이닝 간소화
+- 고차 함수 작성 및 Promise 반환 함수 활용 체이닝 간소화
 
 ### Example 4-16: Generator function for async flow control  
-Generator 함수와 yield를 통한 비동기 흐름 제어
+- Generator 함수와 yield를 통한 비동기 흐름 제어
 
 ### Example 4-17: Async/await syntax for sequential async calls  
-Async/await 문법을 통한 명료한 순차적 비동기 처리
+- Async/await 문법을 통한 명료한 순차적 비동기 처리
 
 ## Chapter 5 Examples
 
 ### Example 5-1: Immediate invocation of inner function  
-내부 함수가 즉시 실행되면서 외부 변수 값을 캡처하여 사용함을 보여주는 예제
+- 내부 함수가 즉시 실행되면서 외부 변수 값을 캡처하여 사용함을 보여주는 예제
 
 ### Example 5-2: Returning result from inner function invocation  
-내부 함수 실행 결과를 외부로 반환하고, 변수 캡처를 통해 값을 전달하는 동작 설명
+- 내부 함수 실행 결과를 외부로 반환하고, 변수 캡처를 통해 값을 전달하는 동작 설명
 
 ### Example 5-3: Returning inner function to enable closure  
-내부 함수를 반환하여 클로저(closure)를 생성하고, 이후에도 외부 변수에 접근 가능한 구조 구현
+- 내부 함수를 반환하여 클로저(closure)를 생성하고, 이후에도 외부 변수에 접근 가능한 구조 구현
 
 ### Example 5-4: Closures in asynchronous functions and event listeners  
-비동기 함수와 이벤트 리스너 내에서 클로저가 어떻게 동작하는지와 변수 캡처 방식을 보여줌
+- 비동기 함수와 이벤트 리스너 내에서 클로저가 어떻게 동작하는지와 변수 캡처 방식을 보여줌
 
 ### Example 5-5: Memory release in closures with return, setInterval, and eventListener  
-클로저가 참조하는 메모리 해제 방법을 반환값, setInterval, 이벤트 리스너별로 비교 분석
+- 클로저가 참조하는 메모리 해제 방법을 반환값, setInterval, 이벤트 리스너별로 비교 분석
 
 ### Example 5-6: Closure capturing loop variable in event listeners  
-반복문 내 이벤트 리스너가 클로저로 인해 동일한 변수 참조 문제를 일으키는 현상과 원인 설명
+- 반복문 내 이벤트 리스너가 클로저로 인해 동일한 변수 참조 문제를 일으키는 현상과 원인 설명
 
 ### Example 5-7: Event listener using shared callback function without closure  
-클로저를 사용하지 않고 공통 콜백 함수를 이벤트 리스너에 등록하여 발생하는 한계와 특성
+- 클로저를 사용하지 않고 공통 콜백 함수를 이벤트 리스너에 등록하여 발생하는 한계와 특성
 
 ### Example 5-8: Event listener with bound function to fix closure issue  
-bind 메서드를 활용해 클로저 문제를 해결하고, 각 이벤트 리스너가 독립적인 변수를 가지도록 구현
+- bind 메서드를 활용해 클로저 문제를 해결하고, 각 이벤트 리스너가 독립적인 변수를 가지도록 구현
 
 ### Example 5-9: Factory function returning closure for event listener callbacks  
-팩토리 함수가 클로저를 반환하여 이벤트 리스너마다 개별 상태를 유지하도록 하는 패턴 소개
+- 팩토리 함수가 클로저를 반환하여 이벤트 리스너마다 개별 상태를 유지하도록 하는 패턴 소개
 
 ### Example 5-10: Object literal with methods manipulating internal state  
-객체 리터럴 내 메서드를 통해 내부 상태를 변경하고 접근하는 기본적인 객체지향 프로그래밍 구현
+- 객체 리터럴 내 메서드를 통해 내부 상태를 변경하고 접근하는 기본적인 객체지향 프로그래밍 구현
 
 ### Example 5-11: Factory function returning object with private state and getters  
-프라이빗 변수와 getter를 포함한 객체를 팩토리 함수로 생성하여 캡슐화와 정보 은닉을 구현
+- 프라이빗 변수와 getter를 포함한 객체를 팩토리 함수로 생성하여 캡슐화와 정보 은닉을 구현
 
 ### Example 5-12: Object.freeze를 통한 불변 객체 반환  
-Object.freeze 메서드를 이용해 객체를 불변으로 만들어 상태 변경을 방지하는 기법 설명
+- Object.freeze 메서드를 이용해 객체를 불변으로 만들어 상태 변경을 방지하는 기법 설명
 
 ### Example 5-13: Function binding with preset arguments using bind  
-bind 함수를 사용하여 일부 인자를 고정한 새로운 함수 생성 방법과 활용 예시
+- bind 함수를 사용하여 일부 인자를 고정한 새로운 함수 생성 방법과 활용 예시
 
 ### Example 5-14: Custom partial function implementation  
-부분 적용(partial application)을 지원하는 커스텀 함수 구현으로, 인자 일부 고정과 재사용성 향상
+- 부분 적용(partial application)을 지원하는 커스텀 함수 구현으로, 인자 일부 고정과 재사용성 향상
 
 ### Example 5-15: Advanced partial function with placeholder support  
-플레이스홀더(_)를 사용하여 인자 위치를 유동적으로 지정할 수 있는 고급 partial 함수 구현
+- 플레이스홀더(_)를 사용하여 인자 위치를 유동적으로 지정할 수 있는 고급 partial 함수 구현
 
 ### Example 5-16: Debounce function for event handling  
-사용자 이벤트의 과도한 호출을 방지하는 디바운스 함수 구현과 실무 적용법 설명
+- 사용자 이벤트의 과도한 호출을 방지하는 디바운스 함수 구현과 실무 적용법 설명
 
 ### Example 5-17: Simple curry function for two-argument functions  
-두 개 인자를 갖는 함수를 위한 단순 커리 함수 구현 및 부분 적용 활용 예제
+- 두 개 인자를 갖는 함수를 위한 단순 커리 함수 구현 및 부분 적용 활용 예제
 
 ### Example 5-18: Nested curry function for five-argument functions  
-5단계 중첩 커리 함수 구현으로 다중 인자 함수에 대해 단계별 부분 적용 가능하도록 설계  
+- 5단계 중첩 커리 함수 구현으로 다중 인자 함수에 대해 단계별 부분 적용 가능하도록 설계
 
+## Chapter 6 Examples
+
+### Example 6-1: Constructor Function Definition and Prototype Method Declaration  
+- 생성자 함수 정의 및 프로토타입 메서드 선언을 통한 인스턴스 메서드 공유 구조
+
+### Example 6-2: Constructor Prototype Structure Inspection  
+- 생성자 함수와 인스턴스 간 프로토타입 체인 및 속성 구조 확인 절차
+
+### Example 6-3: Array Constructor Reference Usage  
+- 배열 객체의 constructor 속성을 이용한 새로운 배열 인스턴스 생성 방식
+
+### Example 6-4: Constructor Overriding and instanceof Test  
+- 다양한 자료형의 constructor 속성 재정의 및 instanceof 연산을 통한 인스턴스 판별 구조
+
+### Example 6-5: Prototype Chain-Based Constructor Access  
+- Object.getPrototypeOf, __proto__, constructor 속성을 활용한 생성자 접근 방식 비교 구조
+
+### Example 6-6: Instance-Level Prototype Method Overriding  
+- 인스턴스 단위에서의 프로토타입 메서드 오버라이딩을 통한 동작 재정의 구조
+
+### Example 6-7: Property Ownership Detection in Array  
+- 배열의 hasOwnProperty 메서드를 활용한 개별 인덱스 소유 여부 판단 구조
+
+### Example 6-8: Array toString Method Customization  
+- Object.prototype 및 Array.prototype.toString 재정의를 통한 문자열 반환 방식 변경 구조
+
+### Example 6-9: Custom Object.entries Implementation  
+- for-in 루프와 hasOwnProperty 검사를 통한 객체 속성 배열화 방식 구현 구조
+
+### Example 6-10: Custom Array-Like Object Constructor  
+- 가변 인자 수용과 length 설정을 포함한 유사 배열 객체 생성자 함수 구현 구조
+
+## Chapter 7 Examples
+
+### Example 7-1: Constructor Function and Static Method  
+- 생성자 함수와 정적 메서드로 객체 구조 구현
+
+### Example 7-2: Instance Creation and instanceof Operator  
+- 생성자 함수로 인스턴스 생성 및 instanceof 사용
+
+### Example 7-3: Prototype Array and length Deletion Issue  
+- 프로토타입 배열에서 length 삭제 영향
+
+### Example 7-4: Prototype Array Initialization and length Deletion Effect  
+- length 삭제 후 push 동작 변화
+
+### Example 7-5: Independent Rectangle and Square Constructors  
+- 독립 생성자 함수와 프로토타입 메서드 구현
+
+### Example 7-6: Square Constructor Sets Height  
+- Square 생성자에서 width와 height 설정
+
+### Example 7-7: Inheritance via Rectangle.call in Square  
+- call로 부모 생성자 속성 상속
+
+### Example 7-8: Simple Inheritance Function extendClass1  
+- new 연산자 기반 상속과 프로토타입 동결
+
+### Example 7-9: Inheritance via Bridge Pattern extendClass2  
+- Bridge 함수로 프로토타입 상속 처리
+
+### Example 7-10: Inheritance via Object.create and Prototype Freeze  
+- Object.create로 상속 후 프로토타입 동결
+
+### Example 7-11: Fix constructor Property in extendClass1  
+- constructor 프로퍼티 복구
+
+### Example 7-12: Fix constructor Property and Bridge in extendClass2  
+- Bridge 및 생성자 프로퍼티 수정
+
+### Example 7-13: extendClass3 Using Object.create  
+- Object.create 상속과 프로퍼티 복구
+
+### Example 7-14: extendClass with super Method Implementation  
+- super 메서드로 부모 메서드 호출 지원
+
+### Example 7-15: ES5 vs ES6 Class Syntax  
+- ES5와 ES6 클래스 문법 비교
+
+### Example 7-16: ES6 Class Inheritance and super Keyword  
+- super 키워드로 부모 생성자 및 메서드 호출
